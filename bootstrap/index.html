@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body class="bg-black">
+  <!--navbar created-->
+  <nav class="navbar navbar-expand-lg bg-danger-subtle border border-white" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">WEDDING DESTINATIONS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#vendor-venue">Our service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact-us">Contact us</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="location" aria-label="Search" />
+          <button class="btn btn-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!--carousle created -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="wedding 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3> Welcome to wedding destinations</h3>
+          <p>Discover & Book the Perfect Venue with Expert Event Planning</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="wedding 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3> Welcome to wedding venue</h3>
+          <p>Discover & Book the Perfect Venue with Expert Event Planning</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="wedding 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3> Welcome to wedding venue</h3>
+          <p>Discover & Book the Perfect Venue with Expert Event Planning</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--cards creations-->
+  <section id="vendor-venue">
+    <h3 class="text-white text-center mt-4">Browse Vendors & Famous Venues</h3>
+
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3  ">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="agra.jpg" alt="" class="bd-placeholder-img card-img-top" height="225"
+              preserveAspectRatio="xMidYMid slice" role="img" width="100%">
+            <div class="card-body">
+              <h4 class="card-text text-center">AGRA</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group"> <button type="button"
+                    class="btn btn-sm btn-outline-secondary bg-danger text-white">VENUES</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary text-dark ">VENDORS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="jaipur.jpg" alt="" class="bd-placeholder-img card-img-top" height="225"
+              preserveAspectRatio="xMidYMid slice" role="img" width="100%">
+            <title>Placeholder</title>
+            <div class="card-body">
+              <h4 class="card-text text-center">JAIPUR</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group"> <button type="button"
+                    class="btn btn-sm btn-outline-secondary  bg-danger text-white">VENUE</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary  text-dark ">VENDORS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="goa.jpeg" alt="" class="bd-placeholder-img card-img-top" height="225"
+              preserveAspectRatio="xMidYMid slice" role="img" width="100%">
+
+            <div class="card-body">
+              <h4 class="card-text text-center">GOA</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group"> <button type="button"
+                    class="btn btn-sm btn-outline-secondary  bg-danger text-white">VENUE</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary  text-dark ">VENDORS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="kerla.jpg" alt="" class="bd-placeholder-img card-img-top" height="225"
+              preserveAspectRatio="xMidYMid slice" role="img" width="100%">
+            <div class="card-body">
+              <h4 class="card-text text-center">KERALA</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group"> <button type="button"
+                    class="btn btn-sm btn-outline-secondary bg-danger text-white">VENUES</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary text-dark ">VENDORS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="shimla manali.jpg" alt="" class="bd-placeholder-img card-img-top" height="225"
+              preserveAspectRatio="xMidYMid slice" role="img" width="100%">
+            <div class="card-body">
+              <h4 class="card-text text-center">SIMLA & MANALI</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group"> <button type="button"
+                    class="btn btn-sm btn-outline-secondary bg-danger text-white">VENUES</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary text-dark ">VENDORS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="udaipur.webp" alt="" class="bd-placeholder-img card-img-top" height="225"
+              preserveAspectRatio="xMidYMid slice" role="img" width="100%">
+            <div class="card-body">
+              <h4 class="card-text text-center">UDAIPUR</h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group"> <button type="button"
+                    class="btn btn-sm btn-outline-secondary bg-danger text-white">VENUES</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary text-dark ">VENDORS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!--contact us-->
+  <section id="contact-us">
+    <div class="container">
+    <div class="container-fluid bg-danger mt-4 p-4"><div class="homePage_recomendationmobilefooter__wfrnB"><h5 class="text-center text-white">Need a Venue? Request a Call Back</h5><div class="d-flex justify-content-center pt-2 row-cols-md-3 text-center"><div class=" position-relative needHelpFooter bs-btn-font-weight: 600"><input readonly="readonly" placeholder="Enter your number" id="formBasicPassword" class="homePage_recomendationmobileInput__PkFDg form-control" type="number"></div></div></div><h5 class="text-center text-white mt-3"><i class="fa fa-phone mt-3" aria-hidden="true"></i><a href="tel:+91-8470804805" class="text-center text-white">&nbsp;+91-8470804805</a></h5></div>
+  </div>
+  </section>
+
+  <!--footer-->
+    <div class="container">
+       <footer class="py-3 my-4"> <ul class="nav justify-content-center border-bottom pb-3 mb-3"> <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li> <li class="nav-item"><a href="#vendor-venue" class="nav-link px-2  ">Find A Venue</a></li> <li class="nav-item"><a href="#" class="nav-link px-2  ">Pricing</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 ">FAQs</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 ">About</a></li></ul> <p class="text-center text-white ">© 2025 Company, Inc</p> </footer>
+       </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
